@@ -1,5 +1,6 @@
 # pyteradatamover
 This is a source code to unload and load Teradata tables using python
+
 To unload:
   1) Insert the credentials into Copy2file.py
   2) Plugin the location where you want to place the unload file
