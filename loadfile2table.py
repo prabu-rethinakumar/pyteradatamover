@@ -18,11 +18,11 @@ import teradata
 import csv
 from DataFormat import mapping
 
-#Provide the QA Version of your table name
+#Provide table name of your map , this will map Columns and their data types
 map_tablename = 'xyz'
 map_dbname = 'qa_abcd'
 
-#Provide the table to be loaded - may differ from above if you dont want to load directly into QA table
+#Provide the table to be loaded
 out_dbname = 'qa_abcd'
 out_tablename = 'xyz_out'
 out_username = 'dcba'
@@ -30,7 +30,7 @@ out_pass = "!%*&@!#)!"
 out_system = 'xyz.lmn.com'
 ckpt_freq = 5000
 # This number represents load batch mode checkpoint value. Increasing it will reduce runtime but may result in
-# failure. Its a trade off between performance and reliability
+# failure. Make this value a trade off between performance and reliability
 
 temp_file = "{}_tmp.txt".format(map_tablename)
 
