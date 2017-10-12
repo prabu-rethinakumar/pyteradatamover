@@ -18,8 +18,11 @@ To Load:
       python loadfile2tables.py
       
 To format Data:
+
   Table data types should be converted into Python readable types before written into file
+  
   DataFormat.py contains an array which will be built based on the Columns of your input table.
+  
   Add or modify the array mapper to your convenience. 
 
 This is a quick beta version. Please leverage as needed
