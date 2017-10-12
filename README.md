@@ -1,5 +1,7 @@
 # Python teradata - load & unload
-This is a simple source code to unload and load Teradata tables using python.
+
+## This is a simple python source code to unload and load Teradata tables using text files
+### Typical loads fail when the delimiters are present in datafields . You can specify your own delimiter and avoid failures. This is best suited for smalled data sets 
 
 To unload:
   1) Insert the credentials into Copy2file.py
